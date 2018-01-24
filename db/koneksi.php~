@@ -1,0 +1,9 @@
+<?php
+$srvr="localhost";
+$db="penjualan";
+$usr="root";
+$pwd="";
+
+mysql_connect($srvr,$usr,$pwd);
+mysql_select_db($db);
+?>
